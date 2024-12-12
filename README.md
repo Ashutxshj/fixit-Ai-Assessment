@@ -16,16 +16,16 @@ Scope – what I could do and couldn’t
 6.	I created dynamic and working frontend using HTML/CSS.
 ## What I couldn’t:
 1.	I had build and implemented the Ai-Powered Quiz generation but I think it used up all the free tokens in the testing phase because I couldn’t debug why didn’t work after that.
-The Fix:
+* The Fix:
 	I believe generating and using paid plan(ex: gpt-4) api key would fix it.
 2.	I had tried to use the asyncio module of Python to create a timer function but it didn’t work at all showing unknown module; then I also tried to make it through JavaScript but scrapped it later.
-The Fix:
+* The Fix:
 	I believe giving more time studying and experimenting the right modules can give us 	the proper result.
 3.	I couldn’t even try for Real Time Synchronization as I wasn’t able to find the proper resource online to do it on Python specifically FastApi.
-The Fix:
+* The Fix:
 Maybe studying its use on JavaScript can give me the right idea on how to work and implement  it.
 5.	I also wasn’t able to deploy the project due lack of experience of deploying a project with this vast backend. I was thinking of containing it on Docker.
-The Fix: With proper time and effort, I can learn the right and effective way of deployment of projects of such girth.
+* The Fix: With proper time and effort, I can learn the right and effective way of deployment of projects of such girth.
 ## Requirements
 * The Project needs to run in an virtual environment with all the right libraries installed.
 * All the necessary libraries are mentioned in Requirements.txt run using:
