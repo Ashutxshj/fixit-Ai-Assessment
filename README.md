@@ -1,36 +1,31 @@
 ## Introduction
-The Live Quiz App is built using FastAPI for the backend and a simple frontend. 
-To access the quiz, users must first log in through their Google account using Firebase Authentication. 
-After logging in, they can either attend a quiz or edit the default set of questions stored in a MongoDB database.
-## Key Features:
-Real-Time Score Updates: The quiz starts with a score of 0. 
-The user earns +4 points for every correct answer and -1 point for every incorrect answer. 
-The score updates in real time and is displayed at the top right corner of the website.
-Quiz Attempt Summary: After completing the quiz, the final score and the number of questions attempted are shown.
-Custom Quiz Creation: Users can either manually add questions to the quiz or use the OpenAI-powered feature to generate questions based on a topic.
+A live quiz app build on FastAPI with some basic frontend. The person has to first login through his/her google account to be able to access the quiz. 
+Then the person has the option to either the attend quiz or edit on the default questions saved in the MongoDB database.
+The quiz starts with a default score of 0 and the person is awarded +4 for each correct answer and -1 for wrong answer. A live score is present on the top right corner of the website which updates and displays the score real time. After attempting every question, the final score and the number of questions attempted is displayed.
+ If the person chooses to “create a quiz” they have option to either manually add on the questions or ask the OpenAI powered functionality to generate a number of questions for them by giving it a topic.
 Scope – what I could do and couldn’t
-## What I Accomplished:
-1. API Development: Implemented the quiz API with full CRUD operations using FastAPI and ran it through uvicorn.
-2. Database Integration: Stored and edited quiz questions in MongoDB in a JSON format.
-3. Firebase Authentication: Integrated Firebase for logging in via Google account.
-4. Real-Time Score Updates: Implemented a real-time score display using JavaScript.
-5. Frontend Development: Developed the frontend using HTML and CSS, ensuring it is dynamic and fully functional.
-6.Virtual Environment Setup: Created and configured Python modules within a VS Code virtual environment.
-## What I couldn’t do:
-1.	AI-Powered Quiz Generation:
-Issue: During testing, the AI-powered quiz generation feature consumed all free tokens and stopped functioning.
-Fix: Switching to a paid API plan (e.g., GPT-4) should resolve the issue by providing more tokens for API calls.
-2.	Timer Functionality:
-Issue: I attempted to use Python’s asyncio module to create a timer function, but encountered errors indicating the module was not found. Later, I tried to implement it with JavaScript, but abandoned the idea.
-Fix: Further study and experimentation with the correct modules should help implement the timer functionality.
-3.	Real-Time Synchronization:
-Issue: I struggled to find the right resources to implement real-time synchronization in FastAPI.
-Fix: Exploring JavaScript for similar functionality may help me understand how to approach real-time synchronization in Python.
-4.	Project Deployment:
-Issue: Due to lack of experience, I was unable to deploy the project, especially given the complexity of the backend. I considered using Docker for deployment.
-Fix: With more time and practice, I plan to learn the proper deployment techniques for large-scale projects and explore Docker or other deployment methods.
+## What I did:
+1.	Implement the API with full functionality and CRUD operations of the quiz in Python(FastAPI) and run through uvicorn.
+2.	Database implementation for storing/editing of the JSON formatted questions in MongoDb.
+3.	Firebase Authentication for logging with Google account.
+4.	The score was displayed and updated real time using JavaScript functions.
+5.	Created and implemented the Python modules in an Virtual Environment in VS Code.
+6.	I created dynamic and working frontend using HTML/CSS.
+## What I couldn’t:
+1.	I had build and implemented the Ai-Powered Quiz generation but I think it used up all the free tokens in the testing phase because I couldn’t debug why didn’t work after that.
+The Fix:
+	I believe generating and using paid plan(ex: gpt-4) api key would fix it.
+2.	I had tried to use the asyncio module of Python to create a timer function but it didn’t work at all showing unknown module; then I also tried to make it through JavaScript but scrapped it later.
+The Fix:
+	I believe giving more time studying and experimenting the right modules can give us 	the proper result.
+3.	I couldn’t even try for Real Time Synchronization as I wasn’t able to find the proper resource online to do it on Python specifically FastApi.
+The Fix:
+Maybe studying its use on JavaScript can give me the right idea on how to work and implement  it.
+5.	I also wasn’t able to deploy the project due lack of experience of deploying a project with this vast backend. I was thinking of containing it on Docker.
+The Fix: With proper time and effort, I can learn the right and effective way of deployment of projects of such girth.
 ## Requirements
-To run this project, you need to set up a virtual environment and install all the required libraries. The necessary dependencies are listed in the requirements.txt file. To install the dependencies, use the following command:
+The Project needs to run in an virtual environment with all the right libraries installed.
+All the necessary libraries are mentioned in Requirements.txt run using:
 
 pip install -r requirements.txt
 
