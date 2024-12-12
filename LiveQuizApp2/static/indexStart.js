@@ -153,7 +153,7 @@ function saveQuiz(event) {
     }
   });
 
-  console.log("Quiz Saved!", questions); // Replace this with a function to send data to the server
+  console.log("Quiz Saved!);
   alert("Quiz successfully saved!");
   document.querySelector(".quiz-container").innerHTML = `<button onclick="startQuiz()">Start Quiz</button>`;
 }
