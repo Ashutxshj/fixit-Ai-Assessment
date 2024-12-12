@@ -40,9 +40,7 @@ async def index(request: Request):
 
 @app.get("/quiz")
 async def get_questions():
-# Fetch questions from MongoDB
     questions = list(questions_collection.find({}))
-    # Convert MongoDB _id to string for JSON serialization
     for question in questions:
         question["_id"] = str(question["_id"])
     return JSONResponse(content=questions)
