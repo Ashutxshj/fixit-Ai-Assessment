@@ -26,11 +26,11 @@ The Live Quiz App is built using **FastAPI** for the backend and a simple fronte
     - **Fix**: Further study and experimentation with the correct modules should help implement the timer functionality.
    
 3. **Real-Time Synchronization**:
-    - **Issue**: I struggled to find the right resources to implement real-time synchronization in **FastAPI**.
-    - **Fix**: Exploring **JavaScript** for similar functionality may help me understand how to approach real-time synchronization in Python.
+    - **Issue**: I struggled to find the right resources to implement real-time synchronization using WebSockets or Socket.IO in **FastAPI**.
+    - **Fix**: Exploring further may help me understand how to approach real-time synchronization in Python.
    
 4. **Project Deployment**:
-    - **Issue**: Due to lack of experience, I was unable to deploy the project, especially given the complexity of the backend. I considered using **Docker** for deployment.
+    - **Issue**: I was unable to deploy the project, especially given the complexity of the backend and also lack of experience. I considered using **Docker** for containment of the project.
     - **Fix**: With more time and practice, I plan to learn the proper deployment techniques for large-scale projects and explore Docker or other deployment methods.
 
 ## Requirements
