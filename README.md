@@ -36,3 +36,18 @@ The Live Quiz App is built using **FastAPI** for the backend and a simple fronte
 ## Requirements
 To run this project, you need to set up a virtual environment and install all the required libraries. The necessary dependencies are listed in the **requirements.txt** file. To install the dependencies, use the following command:
 
+pip install -r requirements.txt
+
+![Alt text](https://i.imgur.com/VZ7i56O.png)
+![Alt text](https://i.imgur.com/kuzW5jY.png)
+![Alt text](https://i.imgur.com/CBh4q6P.png)
+![Alt text](https://i.imgur.com/7nbBJEr.png)
+![Alt text](https://i.imgur.com/a4YMXLO.png)
+![Alt text](https://i.imgur.com/39N6G1h.png)
+![Alt text](https://i.imgur.com/VDXMUnT.png)
+![Alt text](https://i.imgur.com/UWE1Fhe.png)
+![Alt text](https://i.imgur.com/pTqiGBD.png)
+![Alt text](https://i.imgur.com/87ScsST.png)
+![Alt text](https://i.imgur.com/w5PmFok.png)
+
+
