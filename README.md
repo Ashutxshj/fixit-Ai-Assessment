@@ -1,7 +1,11 @@
 ## Introduction
-The Live Quiz App is built using FastAPI for the backend and a simple frontend. To access the quiz, users must first log in through their Google account using Firebase Authentication. After logging in, they can either attend a quiz or edit the default set of questions stored in a MongoDB database.
+The Live Quiz App is built using FastAPI for the backend and a simple frontend. 
+To access the quiz, users must first log in through their Google account using Firebase Authentication. 
+After logging in, they can either attend a quiz or edit the default set of questions stored in a MongoDB database.
 ## Key Features:
-Real-Time Score Updates: The quiz starts with a score of 0. The user earns +4 points for every correct answer and -1 point for every incorrect answer. The score updates in real time and is displayed at the top right corner of the website.
+Real-Time Score Updates: The quiz starts with a score of 0. 
+The user earns +4 points for every correct answer and -1 point for every incorrect answer. 
+The score updates in real time and is displayed at the top right corner of the website.
 Quiz Attempt Summary: After completing the quiz, the final score and the number of questions attempted are shown.
 Custom Quiz Creation: Users can either manually add questions to the quiz or use the OpenAI-powered feature to generate questions based on a topic.
 Scope – what I could do and couldn’t
