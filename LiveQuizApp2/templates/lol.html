@@ -71,7 +71,7 @@
           const result = await firebase.signInWithPopup(auth, provider);
           const user = result.user;
 
-          window.location.href = "quiz.html"; // Change this to your quiz page's URL
+          window.location.href = "quiz.html";
         } catch (error) {
           console.error("Error signing in with Google:", error);
         }
