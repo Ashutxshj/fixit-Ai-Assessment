@@ -6,7 +6,6 @@
 * A live score is present on the top right corner of the website which updates and displays the score real time. 
 * After attempting every question, the final score and the number of questions attempted is displayed.
 * If the person chooses to “create a quiz” they have option to either manually add on the questions or ask the OpenAI powered functionality to generate a number of questions for them by giving it a topic.
-Scope – what I could do and couldn’t
 ## What I did:
 1.	Implemented the API with full functionality and CRUD operations of the quiz in Python(FastAPI) and run through uvicorn.
 2.	Database implementation for storing/editing of the JSON formatted questions in MongoDb.
