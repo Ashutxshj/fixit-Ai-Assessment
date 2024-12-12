@@ -49,7 +49,7 @@ function submitAnswer() {
     return;
   }
 
-  // Check the answer
+ 
   const userAnswer = selectedOption.value;
   if (userAnswer === questions[currentQuestionIndex].answer) {
     score += 4;
@@ -57,10 +57,10 @@ function submitAnswer() {
     score -= 1;
   }
 
-  // Update the live score
+ 
   document.getElementById("score-display").textContent = `Score: ${score}`;
 
-  // Move to the next question or end the quiz
+ 
   currentQuestionIndex++;
   if (currentQuestionIndex < questions.length) {
     showQuestion(currentQuestionIndex);
@@ -79,7 +79,6 @@ function showQuizResults() {
 }
 
 async function createQuiz() {
-  // Display options for manual or AI-based quiz creation
   document.querySelector(".quiz-container").innerHTML = `
     <h3>Create a Quiz</h3>
     <button onclick="manuallyAddQuestions()">Manually Add Questions</button>
