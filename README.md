@@ -12,7 +12,7 @@
 3.	Firebase Authentication for logging with Google account.
 4.	The score was displayed and updated real time using JavaScript.
 5.	Created and implemented the Python modules in a Virtual Environment in VS Code.
-6.	I created dynamic and working frontend using HTML/CSS.
+6.	I created dynamic and working frontend using React.
 ## What I couldn’t:
 1.	I had built and implemented the Ai-Powered Quiz question generation but I think it used up all the free tokens in the testing phase because I couldn’t debug why it didn’t work after that.
 * The Fix:
